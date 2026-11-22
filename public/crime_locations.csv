@@ -1,0 +1,63 @@
+ID,Reported location / crime spot,Police area (as provided),Latitude,Longitude,Coordinate precision,Notes,Google Maps
+1,"Satyanarayana Colony, Nagaram",Keesara,17.48901,78.60778,Locality centroid,Nagaram locality coordinate; exact colony point not verified,Open in Google Maps
+2,"Pochamma Temple Road, Kamatipura",Kamatipura,17.372,78.469,Approximate locality,Exact road/temple point not verified,Open in Google Maps
+3,Borabanda,Borabanda,17.454,78.425,Locality centroid,,Open in Google Maps
+4,"Bushes near Hanuman Temple, Yapral",Jawaharnagar,17.51,78.531,Approximate locality,Exact bushes/temple entrance not verified,Open in Google Maps
+5,"Kanakadurga Colony, Chengicherla",Medipally,17.4421,78.6003,Locality centroid,Chengicherla locality coordinate,Open in Google Maps
+6,"Road No. 2, RK Puram Colony",Chaitanyapuri,17.36,78.535,Approximate locality,Colony-area estimate,Open in Google Maps
+7,New Maruthi Nagar community-hall area,Chaitanyapuri,17.354,78.526,Approximate locality,Neighbourhood estimate,Open in Google Maps
+8,Anjanadri Nagar,Hayathnagar,17.34643,78.60289,Mapped neighbourhood,Verify against exact incident location,Open in Google Maps
+9,"Shamsheergunj, near Tulja Bhavani liquor shop",Chatrinaka,17.356,78.493,Approximate locality,Exact shop point not verified,Open in Google Maps
+10,Gagillapur villa,Dundigal,17.61275,78.38943,Locality centroid,"Gagillapur locality, not the specific villa",Open in Google Maps
+11,Puranapul Darwaza,Kamatipura,17.372,78.465,Approximate landmark,,Open in Google Maps
+12,"Rajiv Gandhi Nagar, Borabanda",Borabanda,17.452,78.423,Approximate locality,,Open in Google Maps
+13,"SBI ATM, Bank Street, Koti",Sultan Bazaar,17.385,78.485,Street centroid,Exact ATM branch not specified,Open in Google Maps
+14,Nandagiri Hills,Jubilee Hills,17.425,78.408,Locality centroid,,Open in Google Maps
+15,"Near Rainbow Cricket Ground, Kashimbowli",Moinabad,17.365,78.275,Approximate locality,Exact ground pin not verified,Open in Google Maps
+16,"KNR Meadows, Kappala Cheruvu",Vanasthalipuram,17.3148,78.5701,Nearby mapped feature,Kappala Cheruvu vicinity; exact KNR Meadows pin not verified,Open in Google Maps
+17,Puppalaguda,Narsingi,17.399,78.369,Locality centroid,,Open in Google Maps
+18,Chandrayangutta area,Chandrayangutta,17.319,78.474,Locality centroid,,Open in Google Maps
+19,"Rock Hills Colony, LB Nagar",LB Nagar,17.341,78.553,Approximate locality,Colony-area estimate,Open in Google Maps
+20,Habsiguda,OU City,17.429,78.543,Locality centroid,,Open in Google Maps
+22,Sulthanpura residence,Mirchowk,17.365,78.478,Approximate locality,Exact residence not inferred,Open in Google Maps
+23,Secunderabad Railway Station,GRP/RPF,17.433,78.501,Landmark centroid,,Open in Google Maps
+24,Hasthinapuram Colony,Meerpet,17.323,78.548,Locality centroid,,Open in Google Maps
+25,Chandanagar PS area,Chandanagar,17.493,78.325,Police-station/locality centroid,Exact incident location not specified,Open in Google Maps
+26,"Gulf Enclave, Kowkoor",Jawaharnagar,17.531,78.526,Approximate locality,,Open in Google Maps
+27,"Ratnadeep Building, Kavadiguda",Gandhinagar,17.423,78.493,Approximate locality,Building pin not independently verified,Open in Google Maps
+28,Spa in Secunderabad,Secunderabad,17.439,78.498,Area centroid only,Spa name/address not supplied,Open in Google Maps
+29,Neighbourhood in Bandlaguda,Bandlaguda,17.335,78.452,Area centroid only,Bandlaguda ambiguous; approximate southern Bandlaguda point,Open in Google Maps
+30,"Near Guntal Sha Baba Dargah, Vattepally",Mailardevpally,17.32,78.455,Approximate landmark,,Open in Google Maps
+31,APCO Colony / Kattedan area,Mailardevpally,17.308,78.394,Approximate locality,,Open in Google Maps
+32,Biryani Shah Tekri,Kalapather,17.344,78.463,Approximate locality,,Open in Google Maps
+33,"Near Samosa Galli, Daibagh",Tappachabutra,17.357,78.464,Approximate locality,,Open in Google Maps
+34,"Uppuguda Railway Station, Uppuguda–Yakutpura side",Railway Police,17.339,78.492,Landmark centroid,Railway-side area; exact spot not verified,Open in Google Maps
+35,Singareni Colony,Saidabad,17.359,78.508,Locality centroid,,Open in Google Maps
+36,In front of Inorbit Mall,Madhapur,17.434,78.386,Landmark centroid,,Open in Google Maps
+37,Ismail Nagar,Bandlaguda,17.333,78.456,Approximate locality,Place name may be ambiguous,Open in Google Maps
+38,"Army facility, Bolarum/Secunderabad Cantonment",Cantonment,17.508,78.512,Broad area centroid,Large facility area; not an exact facility coordinate,Open in Google Maps
+39,Road No. 10,Jubilee Hills,17.425,78.408,Street-area centroid,Assumed Jubilee Hills Road No. 10,Open in Google Maps
+40,"Near Shams Tailor Shop, Upperpally",Rajendranagar,17.334,78.431,Approximate locality,Exact shop point not verified,Open in Google Maps
+41,Ali Nagar,Mailardevpally,17.321,78.445,Approximate locality,,Open in Google Maps
+42,Reported in Mangalhat area,Mangalhat,17.386,78.465,Locality centroid,,Open in Google Maps
+43,Hotel in SR Nagar,SR Nagar,17.443,78.443,Area centroid only,Hotel name/address not supplied,Open in Google Maps
+44,Hotel in Miyapur,Miyapur,17.496,78.357,Area centroid only,Hotel name/address not supplied,Open in Google Maps
+45,"Hassannagar, Attapur",Attapur,17.357,78.43,Approximate locality,,Open in Google Maps
+46,"CaratLane, Boduppal, Hyderabad–Warangal Highway",Medipally,17.413,78.585,Approximate commercial area,Specific branch pin not independently verified,Open in Google Maps
+47,"Outside café, Jubilee Hills",Jubilee Hills,17.425,78.408,Area centroid only,Cafe name/address not supplied,Open in Google Maps
+48,"Ghansmandi, near a roadside dark spot",Mahankali Police Station,17.439,78.498,Approximate incident locality,Exact spot not specified,Open in Google Maps
+49,Jiyaguda bypass road near Puranapul,Kulsumpura Police Station,17.373,78.466,Approximate road segment,Exact incident point not specified,Open in Google Maps
+50,"House on Road No. 52, Jubilee Hills",Jubilee Hills Police Station,17.426,78.408,Street-area centroid,Exact house address omitted,Open in Google Maps
+51,"Open plot near Prabhakar Reddy Complex, Balanagar crossroads",Balanagar Police Station,17.476,78.448,Approximate landmark,Exact open plot not identified,Open in Google Maps
+52,"Road near National Highway 44, Shamshabad",Shamshabad Police Station,17.265,78.396,Approximate road segment,Exact point on/near NH-44 not specified,Open in Google Maps
+53,"Jewellery shop, Akbarbagh",Chaderghat Police Station,17.373,78.501,Approximate locality,Specific shop not named,Open in Google Maps
+54,"Near SR Nagar Metro Station, opposite Federal Bank",Madhura Nagar Police Station,17.4435,78.442,Approximate landmark,,Open in Google Maps
+55,"MSAT Residency, Kondapur",Gachibowli Police Station,17.469,78.367,Approximate locality,Building coordinate not independently verified,Open in Google Maps
+56,"Salargunj Colony, Tolichowki",Langer House Police Station,17.397,78.413,Approximate locality,,Open in Google Maps
+57,"Durga Vihar Colony, Trimulgherry",Trimulgherry Police Station,17.463,78.511,Approximate locality,,Open in Google Maps
+58,"Priya Colony, Karkhana",Karkhana Police Station,17.474,78.505,Approximate locality,,Open in Google Maps
+59,"Jawahar Railway Colony, Karkhana",Karkhana Police Station,17.472,78.502,Approximate locality,,Open in Google Maps
+60,"Navodaya Colony, Jubilee Hills",Jubilee Hills Police Station,17.43,78.41,Approximate locality,,Open in Google Maps
+61,"100 Feet Road, Puranapool",Kulsumpura Police Station,17.372,78.465,Approximate road segment,,Open in Google Maps
+62,"From Sri Sai Bar, Chikkadpally toward Mehdipatnam (route incident)",Chikkadpally Police Station,17.406,78.49,Route start-area only,"Coordinates indicate approximate starting locality, not whole route",Open in Google Maps
+63,"Residential parking, Ashok Bazar, Afzalgunj",Afzalgunj Police Station,17.384,78.478,Approximate locality,Specific parking location not identified,Open in Google Maps

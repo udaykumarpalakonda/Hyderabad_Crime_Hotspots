@@ -1,0 +1,369 @@
+
+/* Main wrapper */
+
+.crime-map-wrapper {
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  background: #0b1120;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Toolbar */
+
+.map-toolbar {
+  min-height: 65px;
+  padding: 12px 18px;
+  background: #111827;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  z-index: 1000;
+  border-bottom: 1px solid #263244;
+}
+
+.map-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.map-heading h2 {
+  font-size: 17px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.map-heading small {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.live-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ef4444;
+  box-shadow: 0 0 12px #ef4444;
+}
+
+/* Layer controls */
+
+.layer-controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.layer-controls button {
+  padding: 9px 14px;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  background: #1f2937;
+  color: #d1d5db;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.layer-controls button:hover {
+  background: #374151;
+}
+
+.layer-controls .active-points {
+  background: #7f1d1d;
+  border-color: #ef4444;
+  color: white;
+}
+
+.layer-controls .active-polygons {
+  background: #713f12;
+  border-color: #f59e0b;
+  color: white;
+}
+
+/* Map */
+
+.crime-map {
+  width: 100%;
+  flex: 1;
+  min-height: 500px;
+  background: #111827;
+}
+
+/* Dark map appearance */
+
+.leaflet-container {
+  background: #111827;
+  font-family: Arial, sans-serif;
+}
+
+/* Polygon glow */
+
+.heat-glow-outer {
+  filter: drop-shadow(0 0 12px currentColor);
+}
+
+.heat-glow-middle {
+  filter: drop-shadow(0 0 7px currentColor);
+}
+
+.heat-area {
+  filter: drop-shadow(0 0 5px currentColor);
+  transition: fill-opacity 0.3s ease;
+}
+
+/* Crime point glow */
+
+.crime-point {
+  filter: drop-shadow(0 0 6px #ff3030);
+}
+
+/* Search */
+
+.area-search {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1000;
+  width: 270px;
+  max-width: calc(100% - 85px);
+}
+
+.area-search input {
+  width: 100%;
+  padding: 12px 14px;
+  background: #111827;
+  color: white;
+  border: 1px solid #475569;
+  border-radius: 9px;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.area-search input:focus {
+  border-color: #ef4444;
+}
+
+.area-search input::placeholder {
+  color: #94a3b8;
+}
+
+.search-results,
+.no-results {
+  margin-top: 5px;
+  background: #111827;
+  color: white;
+  border: 1px solid #374151;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.search-result-item {
+  padding: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #263244;
+}
+
+.search-result-item:hover {
+  background: #263244;
+}
+
+.search-result-item strong,
+.search-result-item small {
+  display: block;
+}
+
+.search-result-item small {
+  color: #94a3b8;
+  margin-top: 4px;
+}
+
+.no-results {
+  padding: 12px;
+  color: #fca5a5;
+}
+
+/* My location button */
+
+.location-control {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+}
+
+.location-button {
+  padding: 11px 15px;
+  border: 1px solid #22c55e;
+  background: #14532d;
+  color: white;
+  border-radius: 9px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.location-button:hover {
+  background: #166534;
+}
+
+.location-error {
+  margin-top: 8px;
+  background: #450a0a;
+  color: #fecaca;
+  padding: 10px;
+  border-radius: 7px;
+  max-width: 220px;
+  font-size: 12px;
+}
+
+/* Legend */
+
+.map-legend {
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  z-index: 1000;
+  padding: 13px 16px;
+  background: rgba(17, 24, 39, 0.95);
+  border: 1px solid #374151;
+  border-radius: 9px;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.map-legend strong {
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.map-legend div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.legend-dot.high {
+  background: #ff3030;
+  box-shadow: 0 0 8px #ff3030;
+}
+
+.legend-dot.medium {
+  background: #ff9f1c;
+  box-shadow: 0 0 8px #ff9f1c;
+}
+
+.legend-dot.low {
+  background: #22c55e;
+  box-shadow: 0 0 8px #22c55e;
+}
+
+.legend-dot.point {
+  background: #ff3030;
+  border: 1px solid white;
+}
+
+/* Popup */
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #111827;
+  color: #f9fafb;
+}
+
+.leaflet-popup-content {
+  margin: 14px;
+}
+
+.leaflet-popup-content h3 {
+  color: #f87171;
+  margin-top: 0;
+}
+
+.leaflet-popup-content a {
+  color: #60a5fa;
+}
+
+/* Zoom controls */
+
+.leaflet-control-zoom a {
+  background: #111827 !important;
+  color: white !important;
+  border-color: #374151 !important;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .map-toolbar {
+    align-items: flex-start;
+  }
+
+  .map-heading h2 {
+    font-size: 14px;
+  }
+
+  .layer-controls button {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .map-legend {
+    bottom: 15px;
+    left: 10px;
+  }
+}
+
+
+/* Convert the normal map into a dark map */
+
+.dark-map-tiles {
+  filter: invert(100%) hue-rotate(180deg) brightness(85%) contrast(90%) saturate(80%);
+}
+
+
+
+/* Outer infected zone glow */
+
+.infected-outer-glow {
+  filter: blur(9px);
+  pointer-events: none;
+}
+
+/* Middle infected zone glow */
+
+.infected-middle-glow {
+  filter: blur(4px);
+  pointer-events: none;
+}
+
+/* Main infected area */
+
+.infected-area {
+  filter: drop-shadow(0 0 5px currentColor);
+  transition: fill-opacity 0.4s ease;
+}
+
+/* Improve polygon appearance */
+
+.leaflet-interactive {
+  transition: opacity 0.3s ease;
+}
