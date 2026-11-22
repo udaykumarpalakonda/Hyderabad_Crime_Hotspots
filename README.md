@@ -17,6 +17,10 @@ The project uses geographic data and interactive map visualizations to highlight
 - **Interactive Information Windows:** View available location details by clicking on markers and highlighted areas.
 - **Layer Controls:** Toggle crime markers and highlighted area boundaries independently.
 
+
+<img width="1915" height="887" alt="crime_hotspot_main" src="https://github.com/user-attachments/assets/52b1cc67-bd88-4811-a4ad-8b810c996082" />
+
+
 ## Technology Stack
 
 | Technology | Purpose |
