@@ -20,10 +20,8 @@ The project uses geographic data and interactive map visualizations to highlight
 **Project web page**
 <img width="1915" height="887" alt="crime_hotspot_main" src="https://github.com/user-attachments/assets/52b1cc67-bd88-4811-a4ad-8b810c996082" />
 
-**Colony highlighted due to the occurrence of people with FIR's registered**
+**Colony highlighted due to the occurrence of people with FIR's registered and Locations of Homicides occurred****
 <img width="436" height="212" alt="polygone_mouse_over" src="https://github.com/user-attachments/assets/d20cb290-bb34-4f02-a2ba-0d791963e052" />
-
-**Locations of Homicides occurred**
 <img width="436" height="212" alt="homicide&#39;s reported" src="https://github.com/user-attachments/assets/d7e10674-33b4-40cf-8284-3aec57388361" />
 
 
