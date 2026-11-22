@@ -17,10 +17,12 @@ The project uses geographic data and interactive map visualizations to highlight
 - **Interactive Information Windows:** View available location details by clicking on markers and highlighted areas.
 - **Layer Controls:** Toggle crime markers and highlighted area boundaries independently.
 
-
+# Project web page
 <img width="1915" height="887" alt="crime_hotspot_main" src="https://github.com/user-attachments/assets/52b1cc67-bd88-4811-a4ad-8b810c996082" />
-<img width="872" height="632" alt="polygone_mouse_over" src="https://github.com/user-attachments/assets/d20cb290-bb34-4f02-a2ba-0d791963e052" />
-<img width="736" height="512" alt="homicide&#39;s reported" src="https://github.com/user-attachments/assets/d7e10674-33b4-40cf-8284-3aec57388361" />
+# Colony highlighted due to the occurrence of people with FIR's registered
+<img width="672" height="432" alt="polygone_mouse_over" src="https://github.com/user-attachments/assets/d20cb290-bb34-4f02-a2ba-0d791963e052" />
+# Locations of Homicides occurred
+<img width="536" height="312" alt="homicide&#39;s reported" src="https://github.com/user-attachments/assets/d7e10674-33b4-40cf-8284-3aec57388361" />
 
 
 ## Technology Stack
