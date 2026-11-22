@@ -24,6 +24,7 @@ The project uses geographic data and interactive map visualizations to highlight
 <img width="380" height="212" alt="polygone_mouse_over" src="https://github.com/user-attachments/assets/d20cb290-bb34-4f02-a2ba-0d791963e052" />
 <img width="380" height="212" alt="homicide&#39;s reported" src="https://github.com/user-attachments/assets/d7e10674-33b4-40cf-8284-3aec57388361" />
 <img width="380" height="212" alt="search_location" src="https://github.com/user-attachments/assets/fa625fb5-eb79-43eb-9d0d-9463285684c2" />
+<img width="380" height="212" alt="current_location" src="https://github.com/user-attachments/assets/9f4c9c7f-afee-4483-96d3-12b7c1757163" />
 
 
 ## Technology Stack
