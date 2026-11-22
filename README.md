@@ -74,13 +74,7 @@ Follow these steps to run the project locally.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/udaykumarpalakonda<img width="872" height="632" alt="polygone_mouse_over" src="https://github.com/user-attachments/assets/36b43c1b-a2cb-48d9-b4cf-98a629fc9787" />
-<img width="736" height="512" alt="homicide&#39;s reported" src="https://github.com/user-attachments/assets/7efce524-82aa-48e0-b5ea-82d35a512806" />
-<img width="872" height="632" alt="polygone_mouse_over" src="https://github.com/user-attachments/assets/5198d993-72a2-4960-918c-a658a20d78a5" />
-<img width="736" height="512" alt="homicide&#39;s reported" src="https://github.com/user-attachments/assets/60eaccd3-ddec-4a62-a8f8-ffdb4ed6edfa" />
-<img width="872" height="632" alt="polygone_mouse_over" src="https://github.com/user-attachments/assets/216ab4a4-9a1f-4ce4-8bf4-4d3fa7a5a546" />
-<img width="872" height="632" alt="polygone_mouse_over" src="https://github.com/user-attachments/assets/0f228981-6754-4427-b1db-e3bc0aca27a5" />
-/Hyderabad_Crime_Hotspots.git
+git clone https://github.com/udaykumarpalakonda/Hyderabad_Crime_Hotspots.git
 ```
 
 ### 2. Navigate to the Project Directory
